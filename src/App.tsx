@@ -1,14 +1,10 @@
-import Container from "./layouts/Container";
-import Footer from "./layouts/Footer";
-import HashtagList from "./layouts/HashtagList";
+import Footer from "./components/layouts/Footer";
 import "./App.css"
 
 function App() {
   return (
-    <div className="app">
+    <div >
       <Footer />
-      <Container />
-      <HashtagList />
     </div>
   );
 }
