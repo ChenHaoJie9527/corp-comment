@@ -5,9 +5,8 @@ type Props = {};
 
 export default function Container({}: Props) {
   return (
-    <div className="container">
+    <main className="container">
       <Header />
-      <FeedbackList />
-    </div>
+    </main>
   );
 }
